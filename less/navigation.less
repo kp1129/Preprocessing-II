@@ -1,1 +1,29 @@
 // Navigation Styles here
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    .flexThis(space-between, center);
+    border-bottom: 1px dashed gray;
+
+    .logo, .links {
+        width: 40%;
+    }
+
+    .logo {
+
+        h1 {
+            padding: 15px 0;
+        }
+    } // closes .logo
+
+    .links {
+        .flexThis(space-between, center);
+
+        a {
+            font-size: 1.25rem;
+            color: black;
+            text-decoration: none;
+        } //closes a
+    } // closes .links    
+} // closes nav
