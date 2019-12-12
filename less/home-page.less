@@ -1,6 +1,4 @@
-header{
-
-  
+header{  
 
   hr {
     border: 1px dashed silver;
@@ -18,9 +16,8 @@ header{
     margin: 0 auto;
     padding: 5px 0;
     border-bottom: 1px dashed silver;
-  }
-
-}
+  } // closes .welcome
+} // closes header
 
 .home {
 
@@ -29,8 +26,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
     
     .text-content {
       width: 48%;
@@ -45,7 +40,7 @@ header{
         border-radius: 10px;
       }
     }
-  }
+  } // closes .content-section
 
   .inverse-content {
     padding-bottom: 30px;
@@ -80,6 +75,12 @@ header{
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .flexThis(center, center);
+        .buttonThis(teal, white);
+        
+      }
     }
   }
 }// home

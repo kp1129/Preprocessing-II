@@ -264,3 +264,14 @@ header .welcome {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  padding: 10px 15px;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
