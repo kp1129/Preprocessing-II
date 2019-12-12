@@ -169,12 +169,11 @@ img {
   margin: 0 auto;
 }
 nav {
-  width: 90%;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dashed gray;
 }
 nav .logo,
 nav .links {
@@ -189,7 +188,7 @@ nav .links {
   align-items: center;
 }
 nav .links a {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: black;
   text-decoration: none;
 }
@@ -203,6 +202,21 @@ nav .links a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header hr {
+  border: 1px dashed silver;
+  padding: 0;
+  margin: 0;
+}
+header .header-img {
+  max-width: 800px;
+  margin: 0 auto;
+}
+header .welcome {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 0;
+  border-bottom: 1px dashed silver;
 }
 .home .content-section {
   margin: 30px 0;
