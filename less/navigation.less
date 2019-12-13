@@ -1,1 +1,47 @@
 // Navigation Styles here
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  .flexThis(space-between, center);
+
+  @media @mobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+  } // closes @media
+
+  .logo,
+  .links {
+    width: 40%;
+
+    @media @mobile {
+      width: 100%;
+      text-align: center;
+    } // closes @media
+  }
+
+  .logo {
+    h1 {
+      padding: 15px 0;
+
+      @media @mobile {
+        padding: 10px 0;
+      } // closes @media
+    } // closes h1
+  } // closes .logo
+
+  .links {
+    .flexThis(space-between, center);
+
+    @media @mobile {
+      .flexThis(space-evenly, center);
+    }
+    a {
+      font-size: 1.5rem;
+      color: black;
+      text-decoration: none;
+    } //closes a
+  } // closes .links
+} // closes nav

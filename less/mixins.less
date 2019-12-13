@@ -1,1 +1,15 @@
 // Mixins in here
+.flexThis(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.buttonThis(@bkg-color, @font-color) {
+  background-color: @bkg-color;
+  color: @font-color;
+  padding: 10px 15px;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
